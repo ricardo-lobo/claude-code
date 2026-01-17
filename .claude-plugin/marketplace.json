@@ -8,6 +8,16 @@
   },
   "plugins": [
     {
+      "name": "commit",
+      "source": "./commit",
+      "description": "Smart commits with security review and documentation awareness",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ricardo Lobo"
+      },
+      "category": "productivity"
+    },
+    {
       "name": "sentry-mcp",
       "source": "./sentry",
       "description": "Interact with Sentry for error monitoring, issue management, and debugging",
