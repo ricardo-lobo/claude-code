@@ -1,0 +1,7 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "Smart commits with documentation awareness",
+  "author": { "name": "Ricardo Lobo" },
+  "keywords": ["git", "commit", "documentation"]
+}
