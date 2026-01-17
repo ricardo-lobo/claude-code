@@ -30,13 +30,7 @@ A smart commit workflow that handles security reviews and documentation updates.
 
 ### Usage
 
-Stage your changes, then run:
-
-```
-/commit
-```
-
-The skill will:
+Stage your changes, then the agent will:
 1. Analyze staged changes
 2. Skip questions for trivial commits (lockfiles, deps)
 3. For non-trivial changes, ask about security review and documentation
@@ -187,8 +181,8 @@ claude-code/
 ├── commit/                # commit plugin
 │   ├── .claude-plugin/
 │   │   └── plugin.json
-│   └── skills/
-│       └── commit/        # Smart commit skill
+│   └── agents/
+│       └── commit.md      # Smart commit agent
 ├── sentry/                # sentry-mcp plugin
 │   ├── .claude-plugin/
 │   │   └── plugin.json
