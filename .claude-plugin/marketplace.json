@@ -10,17 +10,7 @@
     {
       "name": "skills",
       "source": "./skills",
-      "description": "Reusable agent skills for common workflows (ralph-wizard, etc.)",
-      "version": "1.0.0",
-      "author": {
-        "name": "Ricardo Lobo"
-      },
-      "category": "productivity"
-    },
-    {
-      "name": "commit",
-      "source": "./commit",
-      "description": "Smart commits with security review and documentation awareness",
+      "description": "Reusable agent skills: commit, ralph-wizard, and more",
       "version": "1.0.0",
       "author": {
         "name": "Ricardo Lobo"
