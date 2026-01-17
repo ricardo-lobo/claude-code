@@ -6,7 +6,41 @@ A collection of Claude Code plugins by Ricardo Lobo.
 
 | Plugin | Description |
 |--------|-------------|
+| [commit](#commit) | Smart commits with security review and documentation awareness |
 | [sentry-mcp](#sentry-mcp) | Interact with Sentry for error monitoring and debugging |
+
+---
+
+## commit
+
+A smart commit workflow that handles security reviews and documentation updates.
+
+### Features
+
+- **Trivial commit detection** - Skips questions for lockfiles, dependency updates, and .gitignore changes
+- **Security review** - Optional check for hardcoded secrets, injection vulnerabilities, sensitive data exposure
+- **Documentation awareness** - Prompts to update CLAUDE.md, README.md, or create new docs
+- **Conventional commits** - Generates proper format with type(scope), detailed body, and Co-Authored-By footer
+
+### Installation
+
+```
+/plugin install commit@ricardo-lobo
+```
+
+### Usage
+
+Stage your changes, then run:
+
+```
+/commit
+```
+
+The skill will:
+1. Analyze staged changes
+2. Skip questions for trivial commits (lockfiles, deps)
+3. For non-trivial changes, ask about security review and documentation
+4. Generate and execute a conventional commit
 
 ---
 
@@ -150,6 +184,11 @@ bun run start    # Run MCP server standalone
 claude-code/
 ├── .claude-plugin/
 │   └── marketplace.json   # Marketplace registration
+├── commit/                # commit plugin
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   └── skills/
+│       └── commit/        # Smart commit skill
 ├── sentry/                # sentry-mcp plugin
 │   ├── .claude-plugin/
 │   │   └── plugin.json
