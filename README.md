@@ -1,6 +1,12 @@
-# Sentry MCP Plugin for Claude Code
+# Claude Code Plugins
 
-A Claude Code plugin for Sentry self-hosted instances. Query issues, manage errors, and debug with Sentry context directly from Claude Code.
+A collection of Claude Code plugins by Ricardo Lobo.
+
+## Plugins
+
+### sentry-mcp
+
+A plugin for Sentry self-hosted instances. Query issues, manage errors, and debug with Sentry context directly from Claude Code.
 
 ## Features
 
@@ -15,7 +21,7 @@ A Claude Code plugin for Sentry self-hosted instances. Query issues, manage erro
 ### From GitHub (Marketplace-style)
 
 ```
-/plugin marketplace add ricardo-lobo/sentry-mcp
+/plugin marketplace add ricardo-lobo/claude-code
 /plugin install sentry-mcp@ricardo-lobo
 ```
 
@@ -23,7 +29,7 @@ A Claude Code plugin for Sentry self-hosted instances. Query issues, manage erro
 
 ```bash
 # Clone the repository
-git clone https://github.com/ricardo-lobo/sentry-mcp.git ~/.claude/plugins/sentry-mcp
+git clone https://github.com/ricardo-lobo/claude-code.git ~/.claude/plugins/sentry-mcp
 
 # Install dependencies
 cd ~/.claude/plugins/sentry-mcp/sentry && bun install
