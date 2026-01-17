@@ -16,7 +16,7 @@ A Claude Code plugin for Sentry self-hosted instances. Query issues, manage erro
 
 ```
 /plugin marketplace add ricardo-lobo/sentry-mcp
-/plugin install sentry@sentry
+/plugin install sentry-mcp@ricardo-lobo
 ```
 
 ### Manual Installation
