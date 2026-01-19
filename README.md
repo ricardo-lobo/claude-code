@@ -6,7 +6,7 @@ A collection of Claude Code plugins by Ricardo Lobo.
 
 | Plugin | Description |
 |--------|-------------|
-| [skills](#skills) | Reusable agent skills (commit, ralph-wizard) |
+| [skills](#skills) | Reusable agent skills (smart-commit, ralph-wizard) |
 | [sentry-mcp](#sentry-mcp) | Interact with Sentry for error monitoring and debugging |
 
 ---
@@ -25,7 +25,7 @@ Reusable agent skills for common workflows.
 
 | Skill | Description |
 |-------|-------------|
-| `commit` | Smart commits with security review, documentation awareness, and conventional commit format |
+| `smart-commit` | Smart commits with security review, documentation awareness, and conventional commit format |
 | `ralph-wizard` | Guided prompt creation for Ralph loops - asks questions to gather specs, requirements, and completion criteria |
 
 ### Usage
@@ -178,7 +178,7 @@ claude-code/
 │   ├── .claude-plugin/
 │   │   └── plugin.json
 │   └── skills/
-│       ├── commit/        # Smart commit skill
+│       ├── smart-commit/  # Smart commit skill
 │       └── ralph-wizard/  # Ralph loop prompt wizard
 ├── sentry/                # sentry-mcp plugin
 │   ├── .claude-plugin/

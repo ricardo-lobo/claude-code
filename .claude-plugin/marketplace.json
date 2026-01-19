@@ -10,7 +10,7 @@
     {
       "name": "skills",
       "source": "./skills",
-      "description": "Reusable agent skills: commit, ralph-wizard, and more",
+      "description": "Reusable agent skills: smart-commit, ralph-wizard, and more",
       "version": "1.0.0",
       "author": {
         "name": "Ricardo Lobo"

@@ -1,5 +1,5 @@
 ---
-name: commit
+name: smart-commit
 description: Smart commit workflow with security review and documentation awareness. Detects trivial commits, offers security checks, and generates conventional commits.
 ---
 
