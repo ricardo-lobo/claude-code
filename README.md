@@ -25,7 +25,7 @@ Reusable agent skills for common workflows.
 
 | Skill | Description |
 |-------|-------------|
-| `smart-commit` | Smart commits with security review, documentation awareness, and conventional commit format |
+| `smart-commit` | Smart commits with a code-quality pass (flags redundant AI-generated comments and leftover debug code), risk-triggered security checks, repo-convention-aware conventional commits, and documentation awareness |
 | `ralph-wizard` | Guided prompt creation for Ralph loops - asks questions to gather specs, requirements, and completion criteria |
 
 ### Usage
